@@ -17,6 +17,9 @@ class String
   def count_sentences
     num = 0
     count_string = self.split(/[.+!+?+]/)
+    if count_string.include?("")
+      count_string.delete("")
+    end
     count_string.length
     binding.pry
   end
