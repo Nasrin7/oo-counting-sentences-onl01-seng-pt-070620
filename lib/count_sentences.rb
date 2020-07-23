@@ -21,7 +21,6 @@ class String
       count_string.delete("")
     end
     count_string.length
-    binding.pry
   end
 end
 
